@@ -1,0 +1,75 @@
+*{
+    font-family: 'Rajdhani', sans-serif;
+}
+p{
+    font-size: 3vh;
+}
+h1{
+    font-weight: 600;
+    font-size: 7vh
+}
+h3{
+    font-weight: 600;
+}
+
+.btn-primary{
+    background-color: #0E637C !important;
+    border-radius: 18px;
+    border: none;
+}
+
+li a {
+    font-weight: 500;
+    font-size: 3vh;
+    color: black;
+}
+
+li{
+    border-right: 2px solid black;
+}
+li.sinBorde {
+    border-right: 0;
+}
+
+
+.titulos-fotos{
+    font-size: 2vh;
+}
+.frase{
+    font-size: 5vh;
+    font-family: 'Courgette', cursive !important;
+}
+footer{
+    background-color: #0E637C;
+}
+div a{
+    color: white;
+    font-size: 2vh;
+    
+}
+
+/* Card */
+.card-img{
+    width: 100% !important;
+}
+.card-text {
+    font-size: 2vh;
+}
+.card{
+    border: 0px;
+}
+#imgInstagram {
+    width:100%;
+}
+
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+    li {
+        border-right: 0;
+    }
+    #imgInstagram {
+        width:25%;
+    }
+ }

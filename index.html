@@ -4,11 +4,136 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Panaderia</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-4 mx-auto my-3">
+                    <img class="img-fluid" src="./assets/img/logo.png" alt="Logo aurelia">
+                </div> 
+            </div>
+        </div>
+       
+        <nav class="navbar justify-content-center navbar-expand-sm">
+            <!-- Links -->
+                <ul class="navbar-nav my-4">
+                    <li class="nav-item px-4">
+                      <a class="nav-link" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item px-4">
+                      <a class="nav-link" href="./pages/panaderia.html">PANADERÍA</a>
+                    </li>
+                    <li class="nav-item px-4">
+                      <a class="nav-link" href="#">CAFÉ</a>
+                    </li>
+                    <li class="nav-item px-4">
+                      <a class="nav-link" href="#">NOSOTROS</a>
+                    </li>
+                    <li class="nav-item px-4 sinBorde">
+                      <a class="nav-link" href="#">CONTACTO</a>
+                    </li>
+                  </ul>
+          </nav>
+    </header>
     <main>
-        <h1>Sitio de Lore</h1>
+        <div class="container-fluid" id="seccion_01">
+            <div class="row ">
+                <div class="col px-0">
+                    <img class="img-fluid" src="./assets/img/panaderia_home.jpg" alt="Foto Panaderia">
+                </div>
+            </div>  
+        </div>
+        
+        <div class="container-fluid py-4 px-0 my-4">
+        <!--PANADERÍA-->
+            <div class="row py-4 my-4 px-0 mx-4" id="panaderia_home">
+                <div class="col-lg-4 col-sm-12 ">
+                    <h1 class="py-4">PANADERÍA</h1>
+                    <p class="py-4">Somos una panadería 100% artesanal, utilizamos ingredientes naturales y orgánicos</p>
+                    <div class="py-4 my-4">
+                        <a href="./pages/panaderia.html"><button class="py-2 px-5 btn btn-primary" type="button"> ver más</button></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <img class="img-fluid" src="./assets/img/roles.jpg" alt="roles">
+                    <p class="titulos-fotos py-3">Roll</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <img class="img-fluid" src="./assets/img/galletas-chocolate.jpg" alt="galletas chispas">
+                    <p class="titulos-fotos py-3">Galletas chispas de chocolate</p>
+                </div>
+            </div>
+        <!--FRASE-->
+        <div class="container-fluid py-2 my-2">
+            <div class="row frase">
+                <div class="col-12 text-center">
+                    <p class="frase"> Panadería Aurelia, pan hecho con amor </p>
+                </div>
+            </div>
+        </div>
+            
+        <!--CAFÉ-->
+        <div class="container-fluid py-4 my-4">
+            
+            <div class="row py-4 my-4" id="Cafe_home">
+                <div class="col-lg-8 col-md-6 col-sm-12">
+                    <img class="img-fluid" src="./assets/img/pan-frances.jpg" alt="brunch">
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <h1 class="py-4">CAFÉ</h1>
+                    <p class="py-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias, ducimus ratione sequi quae doloribus explicabo nesciunt culpa mollitia provident.</p>
+                    <div class="py-4 my-4">
+                        <button class="py-2 px-5  btn btn-primary" type="button"> ver más</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!--NOSOTROS-->
+        <div class="container-fluid py-4 my-4">
+                <div class="row py-4 my-4" id="nosotros">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <h1 class="py-4">NOSOTROS</h1>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <img class="img-fluid" src="./assets/img/fachada.jpg" alt="fachada">
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <p class="py-4 my-4">Ven conócenos y prueba nuestro delicioso pan</p>
+                        <div class="py-4 my-4">
+                            <button class="py-2 px-5 btn btn-primary" type="button"> ver más</button>
+                        </div>
+                    </div>
+                </div>
+        </div>
     </main>
+    <footer>
+        <div class="container py-2">
+            <nav class="row d-flex align-items-center ">
+                <div class="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-center">
+                    <img class="img-fluid w-75" src="./assets/img/logo blanco.png" alt="logo">
+                </div>
+                <div class="row d-flex align-items-center col-lg-7 col-md-6 col-sm-12 d-flex my-4">
+                    <div class="col-lg-4 col-md-12 col-sm-12 d-flex align-items-lg-end align-items-sm-center justify-content-center"> <a href="">HOME</a></div>
+                    <div class="col-lg-4 col-md-12 col-sm-12 d-flex align-items-lg-end align-items-sm-center justify-content-center"> <a href="./pages/panaderia.html">PANADERÍA</a></div>
+                    <div class="col-lg-4 col-md-12 col-sm-12 d-flex align-items-lg-end align-items-sm-center justify-content-center"> <a href="">CAFÉ</a></div>
+                    <div class="col-lg-4 col-md-12 col-sm-12 d-flex align-items-lg-start align-items-sm-center justify-content-center"> <a href="">NOSOTRAS</a></div><div class="col-lg-4 col-md-12 col-sm-12 d-flex align-items-lg-start align-items-sm-center justify-content-center"> <a href="">CONTACTO</a></div>
+                </div>
+                <div class="col-lg-1 col-md-6 col-sm-12 footer_lista d-flex justify-content-center">
+                    <a class="d-flex justify-content-lg-end justify-content-md-center justify-content-sm-center" href="https://www.instagram.com/aurelia.panaderia/"><img id="imgInstagram" class="img-fluid" src="./assets/svg/intagram.svg" alt="instagram"></a>
+                </div>
+            </nav>
+        </div>
+    </footer>
 </body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </html>
