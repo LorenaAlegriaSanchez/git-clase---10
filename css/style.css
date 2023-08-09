@@ -1,3 +1,97 @@
+/*FOOTER*/
+footer {
+  background-color: #0E637C;
+}
+
+div a {
+  color: white;
+  font-size: 2vh;
+  text-decoration: none;
+}
+
+div a:hover {
+  color: #FFF5D7;
+}
+
+/*CONTACTO*/
+.img_sigueme {
+  width: 20%;
+}
+
+.img_sigueme img {
+  width: 100%;
+}
+
+.collage {
+  width: 100%;
+}
+
+/* Card */
+.card-img {
+  width: 100% !important;
+}
+
+.card-text {
+  font-size: 2vh;
+}
+
+.card {
+  border: 0px;
+}
+
+.imgInsta {
+  width: 100%;
+}
+
+.imgInsta:hover {
+  color: #052C35;
+}
+
+/*BOTON*/
+.btn-primary {
+  background: linear-gradient(to right, #0E637C 50%, #052C35 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.5s ease-out;
+  border-radius: 18px;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-position: left bottom;
+}
+
+.titulos-fotos {
+  font-size: 2vh;
+}
+
+/*FRASE*/
+.frase {
+  font-family: "Courgette", cursive !important;
+  padding: 20px;
+}
+
+/*NAVBAR*/
+li a {
+  font-weight: 500;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #0E637C;
+}
+
+li {
+  border-right: 2px solid black;
+}
+
+li.sinBorde {
+  border-right: 0;
+}
+
+/* Modules */
 /* Variables */
 /* Mixin */
 /* General */
@@ -25,105 +119,6 @@ h3 {
 
 .frase {
   background-color: #B6B9A0;
-}
-
-/*NAVBAR*/
-li a {
-  font-weight: 500;
-  font-size: 20px;
-  color: black;
-  text-decoration: none;
-}
-
-li a:hover {
-  color: #0E637C;
-}
-
-li {
-  border-right: 2px solid black;
-}
-
-li.sinBorde {
-  border-right: 0;
-}
-
-/*BOTON*/
-.btn-primary {
-  background: linear-gradient(to right, #0E637C 50%, #052C35 50%);
-  background-size: 200% 100%;
-  background-position: right bottom;
-  transition: all 0.5s ease-out;
-  border-radius: 18px;
-  border: none;
-}
-
-.btn-primary:hover {
-  background-position: left bottom;
-}
-
-.titulos-fotos {
-  font-size: 2vh;
-}
-
-/*FRASE*/
-.frase {
-  font-family: "Courgette", cursive !important;
-  padding: 20px;
-}
-
-/*FOOTER*/
-footer {
-  background-color: #0E637C;
-}
-
-div a {
-  color: white;
-  font-size: 2vh;
-  text-decoration: none;
-}
-
-div a:hover {
-  color: #FFF5D7;
-}
-
-/* Card */
-.card-img {
-  width: 100% !important;
-}
-
-.card-text {
-  font-size: 2vh;
-}
-
-.card {
-  border: 0px;
-}
-
-.imgInsta {
-  width: 100%;
-}
-
-.imgInsta:hover {
-  color: #052C35;
-}
-
-/*CONTACTO*/
-.img_sigueme {
-  width: 5%;
-}
-
-.redes {
-  background-color: #eeece5;
-  transition: all 2s;
-  border-radius: 50%;
-}
-
-.redes:hover {
-  background-color: #2AB4D3;
-}
-
-.collage {
-  width: 100%;
 }
 
 /* Medium devices (tablets, 768px and up) */

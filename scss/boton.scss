@@ -1,0 +1,17 @@
+  /*BOTON*/
+  .btn-primary {
+    background: linear-gradient(to right, #0E637C 50%, #052C35 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 0.5s ease-out;
+    border-radius: 18px;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-position: left bottom;
+  }
+  
+  .titulos-fotos {
+    font-size: 2vh;
+  }

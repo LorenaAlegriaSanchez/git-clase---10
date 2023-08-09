@@ -1,0 +1,22 @@
+/*NAVBAR*/
+li {
+    a {
+        font-weight: 500;
+        font-size: 20px;
+        color: black;
+        text-decoration: none;
+    }
+}
+li {
+    a:hover {
+        color: #0E637C;
+    }
+}
+
+li {
+    border-right: 2px solid black;
+}
+
+li.sinBorde {
+    border-right: 0;
+}

@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panadería</title>
+    <meta name="description" content="Rolles de higo, guayaba, canela, zarazamora, galletas de chispas de chocolate, galletas de avena, tarta de manzana, polvorenes de naranja, polvorones de pinole, brownie y bisquet ">
 
     <link rel="apple-touch-icon" sizes="76x76" href="../assets/favicon/favicon_package_v0.16/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon/favicon_package_v0.16/favicon-32x32.png">
@@ -18,10 +19,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Quicksand:wght@300;400;500;600;700&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body class="background" >
@@ -60,8 +58,8 @@
     <<div class="container-fluid p-0 m-0" id="seccion_01">
         <div class="row p-0 m-0" id="panaderia_home">
             <div class="col-12 text-center p-0 m-0">
-                <h1 class="py-4">PANADERÍA</h1>
-                <p class="py-4">Somos una panadería 100% artesanal. Utilizamos ingredientes naturales y orgánicos</br>Hechos con masa madre</p>
+                <h1 data-aos= "fade-right" class="py-4">PANADERÍA</h1>
+                <p class="py-4">Somos una panadería 100% artesanal. Utilizamos ingredientes naturales y orgánicos</br><span class="fw-bold">Hechos con masa madre</span></p>
             </div>
         <div class="row p-0 m-0">
             <div class="col p-0 m-0">
@@ -70,13 +68,13 @@
         </div>  
     </div>
      <!--Seccion dos FRASE-->
-     <div class="container-fluid py-2 my-2 px-0 py-0">
-        <div class="row frase">
-            <div class="col-lg-10 d-flex justify-content-center">
-                <p class=" fs-1 frase d-flex align-items-center m-0"> Panadería Aurelia, pan hecho con amor </p>
+     <div class="container-fluid py-2 my-2">
+        <div class="row frase d-flex justify-content-center">
+            <div class="col-lg-10 col-md-9 col-sm-9 d-flex justify-content-center">
+              <p class=" fs-1 frase d-flex align-items-center text-center m-0"> Panadería Aurelia, pan hecho con amor </p>
             </div>
-            <div class="col-lg-2 d-flex justify-content-center">
-                <img class="w-50 p-2" src="../assets/svg/hecho con amor.svg" alt="Hecho con amor">
+            <div class="col-lg-2 coo-md-3 col-sm-4 d-flex justify-content-center">
+              <img class="p-2 w-50" src="../assets/svg/hecho con amor.svg" alt="Hecho con amor">
             </div>
         </div>
     </div>
@@ -142,27 +140,29 @@
     </div>
 </main>
     <footer>
-            <div class="container py-2 ">
-                <nav class="row d-flex align-items-center ">
-                    <div class="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-center">
-                        <img class="img-fluid w-75" src="../assets/img/logo blanco.png" alt="logo">
-                    </div>
-                    <div class="row d-flex align-items-center col-lg-7 col-md-6 col-sm-12 d-flex my-4">
-                        <div class="col-lg-4 col-md-12 col-sm-12 d-flex align-items-lg-end align-items-sm-center justify-content-center"> <a class="text-start" href="../index.html">HOME</a></div>
-                        <div class="col-lg-4 col-md-12 col-sm-12 d-flex align-items-lg-end align-items-sm-center justify-content-center"> <a href="">PANADERÍA</a></div>
-                        <div class="col-lg-4 col-md-12 col-sm-12 d-flex align-items-lg-end align-items-sm-center justify-content-center"> <a href="./Cafe.html">CAFÉ</a></div>
-                        <div class="col-lg-4 col-md-12 col-sm-12 d-flex align-items-lg-start align-items-sm-center justify-content-center"> <a href="./Nosotras.html">NOSOTRAS</a></div><div class="col-lg-4 col-md-12 col-sm-12 d-flex align-items-lg-start align-items-sm-center justify-content-center"> <a href="./Contacto.html">CONTACTO</a></div>
-                    </div>
-                    <div class="col-lg-1 col-md-6 col-sm-12 footer_lista d-flex justify-content-center">
-                        <a class="d-flex justify-content-lg-end justify-content-md-center justify-content-sm-center" href="https://www.instagram.com/aurelia.panaderia/"><img class="img-fluid imgInsta" src="../assets/img/insta.svg" alt="instagram"></a>
-                    </div>
-                </nav>
+      <div class="container py-4">
+        <nav class="row d-flex align-items-center justify-content-center "">
+            <div class="col-lg-4 col-md-6 col-sm-8 d-flex justify-content-center">
+                <img class="img-fluid w-75" src="../assets/img/logo blanco.png" alt="logo">
             </div>
+            <div class="row d-flex align-items-center col-lg-7 col-md-5 col-sm-12 d-flex my-4">
+                <div class="col-lg-4 col-md-12 col-sm-12 d-flex align-items-lg-end align-items-sm-center justify-content-center"> <a class="text-start" href="../index.html">HOME</a></div>
+                <div class="col-lg-4 col-md-12 col-sm-12 d-flex align-items-lg-end align-items-sm-center justify-content-center"> <a href="./Panaderia.html">PANADERÍA</a></div>
+                <div class="col-lg-4 col-md-12 col-sm-12 d-flex align-items-lg-end align-items-sm-center justify-content-center"> <a href="./Cafe.html">CAFÉ</a></div>
+                <div class="col-lg-4 col-md-12 col-sm-12 d-flex align-items-lg-start align-items-sm-center justify-content-center"> <a href="./Nosotras.html">NOSOTRAS</a></div><div class="col-lg-4 col-md-12 col-sm-12 d-flex align-items-lg-start align-items-sm-center justify-content-center"> <a href="./Contacto.html">CONTACTO</a></div>
+            </div>
+            <div class="col-lg-1 col-md-1 col-sm-2 footer_lista d-flex justify-content-center">
+                <a class="d-flex justify-content-lg-end justify-content-md-center justify-content-sm-center" href="https://www.instagram.com/aurelia.panaderia/"><img class="img-fluid imgInsta" src="../assets/img/insta.svg" alt="instagram"></a>
+            </div>
+        </nav>
         </footer>
 
   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script> AOS.init();</script>
+
 </body>
 </html>

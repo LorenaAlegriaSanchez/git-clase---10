@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nosotras</title>
+    <meta name="description" content="Panadería artesanal">
 
     <link rel="apple-touch-icon" sizes="76x76" href="../assets/favicon/favicon_package_v0.16/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon/favicon_package_v0.16/favicon-32x32.png">
@@ -18,10 +19,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Quicksand:wght@300;400;500;600;700&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body class="background">
@@ -41,16 +40,16 @@
                       <a class="" href="../index.html">HOME</a>
                     </li>
                     <li class="nav-item px-4">
-                      <a class="" href="../pages/Panaderia.html">PANADERÍA</a>
+                      <a class="" href="./Panaderia.html">PANADERÍA</a>
                     </li>
                     <li class="nav-item px-4">
-                      <a class="" href="../pages/Cafe.html">CAFÉ</a>
+                      <a class="" href="./Cafe.html">CAFÉ</a>
                     </li>
                     <li class="nav-item px-4">
                       <a class="" href="">NOSOTRAS</a>
                     </li>
                     <li class="nav-item px-4 sinBorde">
-                      <a class="" href="../pages/Contacto.html">CONTACTO</a>
+                      <a class="" href="./Contacto.html">CONTACTO</a>
                     </li>
                   </ul>
           </nav>
@@ -60,7 +59,7 @@
     <div class="container-fluid" id="seccion_01">
         <div class="row ">
             <div class="col-12 text-center">
-                <h1 class="py-4">NOSOTRAS</h1>
+                <h1 data-aos= "fade-right" class="py-4">NOSOTRAS</h1>
                 <p class="py-4">Ven conócenos y prueba nuestro delicioso pan</p>
             </div>
         </div>
@@ -73,28 +72,29 @@
    
   <!--Seccion dos FRASES-->
   <div class="container-fluid py-2 my-2">
-    <div class="row frase">
-        <div class="col-lg-10 d-flex justify-content-center">
-            <p class=" fs-1 frase d-flex align-items-center m-0"> Panadería Aurelia, pan hecho con amor </p>
+    <div class="row frase d-flex justify-content-center">
+        <div class="col-lg-10 col-md-9 col-sm-9 d-flex justify-content-center">
+          <p class=" fs-1 frase d-flex align-items-center text-center m-0"> Panadería Aurelia, pan hecho con amor </p>
         </div>
-        <div class="col-lg-2 d-flex justify-content-center">
-            <img class="w-50" src="../assets/svg/hecho con amor.svg" alt="Hecho con amor">
+        <div class="col-lg-2 coo-md-3 col-sm-4 d-flex justify-content-center">
+          <img class="p-2 w-50" src="../assets/svg/hecho con amor.svg" alt="Hecho con amor">
         </div>
+    </div>
         <!--SIGUENOS-->
     </div>
 </div>
-<div class="container-fluid">
+<div class="container-fluid my-4">
     <div class="row">
         <div class="col-lg-12">
-            <p class="text-center">Síguenos en:</p>
+            <p class="text-center ">Síguenos en nuestras redes:</p>
         </div>
     </div>
-  <div class="row">
-      <div class="col-lg-12 d-flex align-items-center  justify-content-center">
-          <a class="img_sigueme" target="_blank" href="https://www.instagram.com/aurelia.panaderia/"><img class="d-flex align-items-center mx-2"  src="../assets/svg/insta_azul.svg" alt="insta Aurelia"></a> 
-          <a class="img_sigueme" target="_blank" href="https://www.instagram.com/aurelia.panaderia/"><img class="d-flex align-items-center mx-2"  src="../assets/svg/insta_azul.svg" alt="insta Aurelia"></a> 
-          <a class="img_sigueme" target="_blank" href="https://www.instagram.com/aurelia.panaderia/"><img class="d-flex align-items-center mx-2"  src="../assets/svg/insta_azul.svg" alt="insta Aurelia"></a> 
-      </div>
+  <div class="row d-flex justify-content-center">
+        <div class="col-lg-4 d-flex align-items-center  justify-content-center">
+            <a class="img_sigueme mx-8" target="_blank" href="https://www.instagram.com/aurelia.panaderia/">
+                <img class="color-cambio d-flex align-items-center"  src="../assets/svg/insta_azul.svg" alt="insta Aurelia">
+            </a> 
+        </div>
    </div>
 </div>
 <!--Seccion tres-->
@@ -109,7 +109,7 @@
 <div class="container my-4 py-4">
     <div class="row">
         <div class="col-lg-6 col-sm-12 d-flex align-items-center">
-            <p> <spam class="fw-bold fs-1"> AUGUSTO RODIN </spam> </br>
+            <p> <span class="fw-bold fs-1"> AUGUSTO RODIN </span> </br>
                 Augusto Rodin #126 Colonia San Juan, Alcaldía Benito Juárez, C.P. 03730,</br> Ciudad de México. 
             </br> Horario: L-V: 09:00 a 18:00hrs. </br>S-D: 09:00 a 14:00hrs
             </p>
@@ -124,27 +124,29 @@
 
 </main>
     <footer>
-            <div class="container py-2 ">
-                <nav class="row d-flex align-items-center ">
-                    <div class="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-center">
-                        <img class="img-fluid w-75" src="../assets/img/logo blanco.png" alt="logo">
-                    </div>
-                    <div class="row d-flex align-items-center col-lg-7 col-md-6 col-sm-12 d-flex my-4">
-                        <div class="col-lg-4 col-md-12 col-sm-12 d-flex align-items-lg-end align-items-sm-center justify-content-center"> <a class="text-start" href="../index.html">HOME</a></div>
-                        <div class="col-lg-4 col-md-12 col-sm-12 d-flex align-items-lg-end align-items-sm-center justify-content-center"> <a href="./pages/panaderia.html">PANADERÍA</a></div>
-                        <div class="col-lg-4 col-md-12 col-sm-12 d-flex align-items-lg-end align-items-sm-center justify-content-center"> <a href="./Nosotras.html">CAFÉ</a></div>
-                        <div class="col-lg-4 col-md-12 col-sm-12 d-flex align-items-lg-start align-items-sm-center justify-content-center"> <a href="./Nosotras.html">NOSOTRAS</a></div><div class="col-lg-4 col-md-12 col-sm-12 d-flex align-items-lg-start align-items-sm-center justify-content-center"> <a href="">CONTACTO</a></div>
-                    </div>
-                    <div class="col-lg-1 col-md-6 col-sm-12 footer_lista d-flex justify-content-center">
-                        <a class="d-flex justify-content-lg-end justify-content-md-center justify-content-sm-center" href="https://www.instagram.com/aurelia.panaderia/"><img class="img-fluid imgInsta" src="../assets/img/insta.svg" alt="instagram"></a>
-                    </div>
-                </nav>
-            </div>
+        <div class="container py-4">
+            <nav class="row d-flex align-items-center justify-content-center "">
+                <div class="col-lg-4 col-md-6 col-sm-8 d-flex justify-content-center">
+                    <img class="img-fluid w-75" src="../assets/img/logo blanco.png" alt="logo">
+                </div>
+                <div class="row d-flex align-items-center col-lg-7 col-md-5 col-sm-12 d-flex my-4">
+                    <div class="col-lg-4 col-md-12 col-sm-12 d-flex align-items-lg-end align-items-sm-center justify-content-center"> <a class="text-start" href="../index.html">HOME</a></div>
+                    <div class="col-lg-4 col-md-12 col-sm-12 d-flex align-items-lg-end align-items-sm-center justify-content-center"> <a href="./Panaderia.html">PANADERÍA</a></div>
+                    <div class="col-lg-4 col-md-12 col-sm-12 d-flex align-items-lg-end align-items-sm-center justify-content-center"> <a href="./Cafe.html">CAFÉ</a></div>
+                    <div class="col-lg-4 col-md-12 col-sm-12 d-flex align-items-lg-start align-items-sm-center justify-content-center"> <a href="./Nosotras.html">NOSOTRAS</a></div><div class="col-lg-4 col-md-12 col-sm-12 d-flex align-items-lg-start align-items-sm-center justify-content-center"> <a href="./Contacto.html">CONTACTO</a></div>
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-2 footer_lista d-flex justify-content-center">
+                    <a class="d-flex justify-content-lg-end justify-content-md-center justify-content-sm-center" href="https://www.instagram.com/aurelia.panaderia/"><img class="img-fluid imgInsta" src="../assets/img/insta.svg" alt="instagram"></a>
+                </div>
+            </nav>  
         </footer>
 
   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script> AOS.init();</script>
+
 </body>
 </html>
